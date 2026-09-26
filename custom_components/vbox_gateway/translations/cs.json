@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "VBox TV Gateway",
+        "description": "Zadejte adresu zařízení. Přihlášení je potřeba pouze pro chráněné stavové stránky.",
+        "data": {
+          "host": "IP adresa",
+          "use_auth": "Stavové stránky vyžadují přihlášení"
+        }
+      },
+      "credentials": {
+        "title": "Přihlášení ke stavovým stránkám",
+        "data": {
+          "username": "Uživatelské jméno",
+          "password": "Heslo"
+        }
+      }
+    },
+    "error": {
+      "invalid_host": "Zadejte platnou IP adresu.",
+      "invalid_auth": "Přihlášení ke stavovým stránkám bylo odmítnuto.",
+      "cannot_connect": "Zařízení neodpovídá nebo vrátilo neplatná data."
+    },
+    "abort": {
+      "already_configured": "Toto zařízení již bylo přidáno."
+    }
+  }
+}
