@@ -10,14 +10,14 @@ from homeassistant.helpers.aiohttp_client import async_get_clientsession
 import voluptuous as vol
 
 from .api import VBoxAuthError, VBoxClient, VBoxError
-from .const import CONF_USE_AUTH, DEFAULT_HOST, DOMAIN
+from .const import CONF_USE_AUTH, DOMAIN
 
 
 class VBoxFlow(config_entries.ConfigFlow, domain=DOMAIN):
     VERSION = 1
 
     def __init__(self) -> None:
-        self._host = DEFAULT_HOST
+        self._host = ""
 
     async def async_step_user(self, user_input=None):
         errors = {}

@@ -10,7 +10,7 @@ from .entity import VBoxEntity
 class VBoxOnline(VBoxEntity, BinarySensorEntity):
     def __init__(self, coordinator):
         super().__init__(coordinator, "online")
-        self._attr_name = "Dostupnost"
+        self._attr_translation_key = "online"
 
     @property
     def available(self):
@@ -25,7 +25,7 @@ class VBoxTunerSignal(VBoxEntity, BinarySensorEntity):
     def __init__(self, coordinator, tuner):
         super().__init__(coordinator, f"tuner_{tuner}_signal")
         self.tuner = tuner
-        self._attr_name = f"Tuner {tuner} má signál"
+        self._attr_translation_key = f"tuner_{tuner}_signal"
 
     @property
     def is_on(self):

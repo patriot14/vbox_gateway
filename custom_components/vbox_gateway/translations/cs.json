@@ -25,5 +25,232 @@
     "abort": {
       "already_configured": "Toto zařízení již bylo přidáno."
     }
+  },
+  "entity": {
+    "sensor": {
+      "last_success": {
+        "name": "Poslední úspěšné načtení"
+      },
+      "active_count": {
+        "name": "Aktivní streamy"
+      },
+      "recordings": {
+        "name": "Běžící nahrávání"
+      },
+      "cpu": {
+        "name": "Zatížení CPU"
+      },
+      "memory": {
+        "name": "Využití paměti"
+      },
+      "temperature": {
+        "name": "Teplota CPU"
+      },
+      "uptime": {
+        "name": "Doba běhu"
+      },
+      "stream_bitrate": {
+        "name": "Celkový datový tok"
+      },
+      "stream_channel": {
+        "name": "Aktivní kanály"
+      },
+      "stream_tuner": {
+        "name": "Stream 1 tuner"
+      },
+      "stream_audio": {
+        "name": "Stream 1 jazyk zvuku"
+      },
+      "stream_subtitles": {
+        "name": "Stream 1 jazyk titulků"
+      },
+      "stream_destination": {
+        "name": "Stream 1 cíl"
+      },
+      "channels_total": {
+        "name": "Naladěné stanice"
+      },
+      "channels_tv": {
+        "name": "TV stanice"
+      },
+      "channels_radio": {
+        "name": "Rádia"
+      },
+      "device_name": {
+        "name": "Název zařízení"
+      },
+      "model": {
+        "name": "Model"
+      },
+      "product_number": {
+        "name": "Produktové číslo"
+      },
+      "software": {
+        "name": "Verze softwaru"
+      },
+      "hardware": {
+        "name": "Revize hardwaru"
+      },
+      "firmware": {
+        "name": "Verze firmwaru"
+      },
+      "kernel": {
+        "name": "Verze kernelu"
+      },
+      "bootloader": {
+        "name": "Verze bootloaderu"
+      },
+      "tuner_count": {
+        "name": "Počet tunerů"
+      },
+      "serial": {
+        "name": "Sériové číslo"
+      },
+      "tuner_1_LockStatus": {
+        "name": "Tuner 1 Stav"
+      },
+      "tuner_1_TunerType": {
+        "name": "Tuner 1 Typ"
+      },
+      "tuner_1_SignalStrength": {
+        "name": "Tuner 1 Síla signálu"
+      },
+      "tuner_1_RFLevel": {
+        "name": "Tuner 1 RF úroveň"
+      },
+      "tuner_1_SNR": {
+        "name": "Tuner 1 SNR"
+      },
+      "tuner_1_BER": {
+        "name": "Tuner 1 BER"
+      },
+      "tuner_1_ChannelNumber": {
+        "name": "Tuner 1 Kanál"
+      },
+      "tuner_1_Frequency": {
+        "name": "Tuner 1 Frekvence"
+      },
+      "tuner_1_Bandwidth": {
+        "name": "Tuner 1 Šířka pásma"
+      },
+      "tuner_1_DvbMode": {
+        "name": "Tuner 1 DVB režim"
+      },
+      "tuner_1_PlpId": {
+        "name": "Tuner 1 PLP ID"
+      },
+      "tuner_1_Modulation": {
+        "name": "Tuner 1 Modulace"
+      },
+      "tuner_1_GuardInterval": {
+        "name": "Tuner 1 Guard interval"
+      },
+      "tuner_1_CodeRate": {
+        "name": "Tuner 1 Code rate"
+      },
+      "tuner_2_LockStatus": {
+        "name": "Tuner 2 Stav"
+      },
+      "tuner_2_TunerType": {
+        "name": "Tuner 2 Typ"
+      },
+      "tuner_2_SignalStrength": {
+        "name": "Tuner 2 Síla signálu"
+      },
+      "tuner_2_RFLevel": {
+        "name": "Tuner 2 RF úroveň"
+      },
+      "tuner_2_SNR": {
+        "name": "Tuner 2 SNR"
+      },
+      "tuner_2_BER": {
+        "name": "Tuner 2 BER"
+      },
+      "tuner_2_ChannelNumber": {
+        "name": "Tuner 2 Kanál"
+      },
+      "tuner_2_Frequency": {
+        "name": "Tuner 2 Frekvence"
+      },
+      "tuner_2_Bandwidth": {
+        "name": "Tuner 2 Šířka pásma"
+      },
+      "tuner_2_DvbMode": {
+        "name": "Tuner 2 DVB režim"
+      },
+      "tuner_2_PlpId": {
+        "name": "Tuner 2 PLP ID"
+      },
+      "tuner_2_Modulation": {
+        "name": "Tuner 2 Modulace"
+      },
+      "tuner_2_GuardInterval": {
+        "name": "Tuner 2 Guard interval"
+      },
+      "tuner_2_CodeRate": {
+        "name": "Tuner 2 Code rate"
+      },
+      "service_VBOX_DAEMON": {
+        "name": "Služba VBOX_DAEMON"
+      },
+      "service_VERSACAST": {
+        "name": "Služba VERSACAST"
+      },
+      "service_SNMP": {
+        "name": "Služba SNMP"
+      },
+      "service_STREAMER": {
+        "name": "Služba STREAMER"
+      },
+      "service_UPNP_SERVER": {
+        "name": "Služba UPNP_SERVER"
+      },
+      "service_SYSLOG_DAEMON": {
+        "name": "Služba SYSLOG_DAEMON"
+      },
+      "service_VBOX_WATCHDOG": {
+        "name": "Služba VBOX_WATCHDOG"
+      },
+      "service_errors": {
+        "name": "Služby v chybě"
+      },
+      "stream_1_bitrate": {
+        "name": "Stream 1 datový tok"
+      },
+      "stream_2_channel": {
+        "name": "Stream 2 kanál"
+      },
+      "stream_2_tuner": {
+        "name": "Stream 2 tuner"
+      },
+      "stream_2_audio": {
+        "name": "Stream 2 jazyk zvuku"
+      },
+      "stream_2_subtitles": {
+        "name": "Stream 2 jazyk titulků"
+      },
+      "stream_2_destination": {
+        "name": "Stream 2 cíl"
+      },
+      "stream_2_bitrate": {
+        "name": "Stream 2 datový tok"
+      }
+    },
+    "binary_sensor": {
+      "online": {
+        "name": "Dostupnost"
+      },
+      "tuner_1_signal": {
+        "name": "Tuner 1 má signál"
+      },
+      "tuner_2_signal": {
+        "name": "Tuner 2 má signál"
+      }
+    },
+    "button": {
+      "restart": {
+        "name": "Restartovat zařízení"
+      }
+    }
   }
 }

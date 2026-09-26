@@ -11,7 +11,7 @@ from .entity import VBoxEntity
 
 
 class VBoxRestart(VBoxEntity, ButtonEntity):
-    _attr_name = "Restartovat zařízení"
+    _attr_translation_key = "restart"
     _attr_entity_category = EntityCategory.CONFIG
 
     def __init__(self, coordinator):
