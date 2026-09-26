@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "config_flow": true,
   "documentation": "https://vboxcomm.com/support/developers/",
-  "issue_tracker": "https://github.com/issues",
+  "issue_tracker": "https://github.com/patriot14/vbox_gateway/issues",
   "codeowners": [],
   "iot_class": "local_polling",
   "integration_type": "device",
